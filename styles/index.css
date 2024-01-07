@@ -15,7 +15,7 @@
     padding: 50px 140px;
     border-radius: 16px;
     margin-bottom: 120px;
-   }
+}
 
 /* header styles */
 .img-text-hny {
@@ -89,10 +89,28 @@
     font-weight: 400;
     line-height: 30px;
     position: absolute;
-    padding: 270px 500px 300px 126px;
+    padding: 290px 500px 300px 126px;
 }
-.container{
-    margin-top: 120px;
-    width: 100%;
-    height: auto;
+
+.container-2 {
+    margin-top: 100px;
+}
+
+    
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-container{
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 900;
+    position: absolute;
+    text-align: lect;
+    padding: 400px 1000px 300px 126px;
+    font-family: Merriweather;
 }
