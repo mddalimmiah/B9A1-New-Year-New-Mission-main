@@ -1,0 +1,98 @@
+/* common shared styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.container {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    padding: 50px 140px;
+    border-radius: 16px;
+    margin-bottom: 120px;
+   }
+
+/* header styles */
+.img-text-hny {
+    position: absolute;
+    padding: 180px 530px;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.img-text-hnw-celebration {
+    position: absolute;
+    padding: 233px 350px;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.offer-price {
+    text-align: center;
+}
+
+.container-text {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+
+}
+
+.paragraph-text {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.paragraph-text-container {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.container-hny-img {
+    display: block;
+    margin: auto;
+
+}
+
+/* main styles */
+
+.banner-text {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 900;
+    position: absolute;
+    text-align: lect;
+    padding: 126px 700px 300px 126px;
+    font-family: Merriweather;
+}
+
+.banner-paragraph {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    padding: 270px 500px 300px 126px;
+}
+.container{
+    margin-top: 120px;
+    width: 100%;
+    height: auto;
+}
