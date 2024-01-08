@@ -236,10 +236,9 @@
 
 .img-96 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
+    float: right;
+    padding-right: 220px;
+    
 }
 
 .holiday-content-2{
@@ -259,4 +258,24 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 32px; /* 160% */
+}
+.img-vector{
+    background-color: #FFF8F3;
+    background-image: url('../resources/Group\ 44.png'), url('../resources/Group\ 75.png');
+    background-repeat: no-repeat;
+    background-position: top center, top left;
+    display: flex;
+    width: auto;
+    float: bottom;
+}
+.class-img-v-1{
+    display:block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  
+  float: right;
+}
+.class-img-v-2{
+    float: none;
+    padding-bottom: 50px;
 }
