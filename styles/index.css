@@ -5,7 +5,7 @@
     padding: 0px;
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
-    und: #FFF;
+
 
 }
 
@@ -16,6 +16,8 @@
     padding: 50px 140px;
     border-radius: 16px;
     margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* header styles */
@@ -238,44 +240,119 @@
     display: block;
     float: right;
     padding-right: 220px;
-    
 }
 
-.holiday-content-2{
+/* holyday content style */
+.holyday-sales {
+    text-align: center;
+
+}
+
+.holyday-greetings {
     color: #070211;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-}
-.holiday-content-3{
-    color: rgba(7, 2, 17, 0.60);
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px 500px;
 
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 32px; /* 160% */
 }
-.img-vector{
-    background-color: #FFF8F3;
-    background-image: url('../resources/Group\ 44.png'), url('../resources/Group\ 75.png');
+
+.holyday-greetings-2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0px 350px;
+
+}
+
+.holyday-color {
+    color: #F00;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holyday-greetings-text {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    padding: 0px 240px 0px 240px;
+}
+
+.img-vector-1 {
+    background-image: url('../resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
-    background-position: top center, top left;
     display: flex;
-    width: auto;
-    float: bottom;
+    background-position: bottom;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    /* position: fixed; */
+
 }
-.class-img-v-1{
-    display:block;
-  /* margin-left: auto;
-  margin-right: auto; */
-  
-  float: right;
+
+.class-img-v-1 {
+    width: 429px;
+    height: 433px;
+    padding: 100px 218px 226px 0px;
 }
-.class-img-v-2{
-    float: none;
-    padding-bottom: 50px;
+
+.class-img-v-2 {
+    /* padding: 425px 120px; */
+}
+
+.gift {
+    align-items: normal;
+    margin: 140px;
+}
+
+.gift-1 {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.gift-2 {
+    Copy color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 16px;
+}
+
+.gift-p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    padding-top:16px;
+}
+.container-img{
+    display: flex;
+    width:100%;
+    padding:10px;
+    gap: 24px;
+    
 }
