@@ -518,13 +518,18 @@ section {
 }
 
 .unsubscribe {
-    color: #f50a0a;
+    color: #fdfafa;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     padding: 10px;
+    background-color: #F00;
+    border:0px;
+    border-radius:  20px;;
+    cursor: pointer;
+
 }
 
 .container-footer {
