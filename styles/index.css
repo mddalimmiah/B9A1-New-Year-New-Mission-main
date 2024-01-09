@@ -117,9 +117,16 @@
 
 .btn-primary {
     color: #FFF;
+    background-color: #F00;
     text-align: center;
+    font-family: Inter;
     font-size: 20px;
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
     border: 0px;
 
 }
@@ -131,6 +138,7 @@
     position: absolute;
     padding: 350px 1000px 300px 126px;
     font-family: Merriweather;
+
 }
 
 .content {
@@ -342,7 +350,7 @@
 }
 
 .gift-2 {
-    Copy color: #070211;
+    color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-style: normal;
@@ -380,13 +388,36 @@
     margin: 0px 560px;
 }
 
-
-
-.subs-2 {
-
-    hwidth: 648px;
+.subs {
+    width: 648px;
     height: 72px;
     flex-shrink: 0;
+    /* height: 72px; */
+    /* margin: 0px 400px; */
+    padding-left: 420px;
+
+}
+
+.btn-subs {
+    width: 210px;
+    /*height: 72px;
+    flex-shrink: 0; */
+    border-radius: 0px 100px 100px 0px;
+    background: #F00;
+    padding: 20px;
+    border: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.subs-2 {
+    padding: 20px;
+    border-radius: 20px;
+    background: #FFF;
+    width: 300px;
+    border: 0px;
+
 }
 
 .sub-content {
@@ -418,24 +449,8 @@
     /* 160% */
 }
 
-.subs {
 
-    height: 72px;
-    margin: 0px 400px;
-}
 
-.btn-subs {
-    width: 210px;
-    /*height: 72px;
-    flex-shrink: 0; */
-    border-radius: 0px 100px 100px 0px;
-    background: #F00;
-    padding: 20px;
-    border: 0px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: 1s;
-}
 
 .colum {
     display: flex;
