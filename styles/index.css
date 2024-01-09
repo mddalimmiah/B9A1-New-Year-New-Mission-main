@@ -97,10 +97,23 @@
 
 .container-2 {
     margin-top: 100px;
+    background-image: url("../resources/Vectorrr.png");
+
 }
+
+.bnr-img-inner {
+    display: flex;
+    object-position: right;
+    /* position: absolute; */
+    /* float: right; */
+    padding-left: 800px;
+    width: 319.83px;
+    height: 464.662px;
 
 
 }
+
+
 
 .btn-primary {
     color: #FFF;
@@ -429,7 +442,7 @@
     justify-content: space-around;
     margin-bottom: 100px;
     max-width: 90%;
-    padding-top:120px;
+    padding-top: 120px;
 
 }
 
@@ -478,18 +491,21 @@
 }
 
 .footer-p-1 {
- max-width: 50%;; 
+    max-width: 50%;
+    ;
 }
 
-.icon-address{
+.icon-address {
     color: #FFF;
 
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
 }
+
 .address-2 {
     justify-content: space-between;
     color: #FFF;
